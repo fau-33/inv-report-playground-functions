@@ -1,4 +1,10 @@
 // Desafio 1 - Crie a função compareTrue
+function compareTrue(a, b) {
+  if (a === true && b === true) {
+    return true;
+  }
+  return false;
+}
 
 // Desafio 2 - Crie a função splitSentence
 
