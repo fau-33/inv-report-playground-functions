@@ -12,6 +12,11 @@ function splitSentence(string) {
 }
 
 // Desafio 3 - Crie a função concatName
+function concatName(array) {
+  let space = ', ';
+  let join = array[array.length - 1].concat(space, array[0]);
+  return join;
+}
 
 // Desafio 4 - Crie a função footballPoints
 
